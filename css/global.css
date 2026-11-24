@@ -85,3 +85,17 @@ body {
   gap: 4rem;
   align-items: center;
 }
+.hero__title{
+  font-family: var(--font-heading);
+  font-size: var(--fs-hero);
+  line-height: 1.1;
+  margin-bottom: 2rem;
+}
+.hero__title.highlight{
+  color: var(--color-secondary);
+}
+.hero__description{
+  color: var(--color-text-muted);
+  font-size: 1.8rem;
+  margin-bottom: 3.2rem;
+}
